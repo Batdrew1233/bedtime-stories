@@ -28,9 +28,11 @@ public class BedtimeStories {
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             String line;
+            int list = 0;
 
             while((line = bufferedReader.readLine()) != null){
-                System.out.println(line);
+                list += 1;
+                System.out.println(list + ". " + line);
             }
             bufferedReader.close();
         }
