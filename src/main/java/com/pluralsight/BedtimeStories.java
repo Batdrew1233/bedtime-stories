@@ -40,5 +40,6 @@ public class BedtimeStories {
             System.out.println("Something went wrong!");
 
         }
+        scanner.close();
     }
 }
